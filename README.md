@@ -2,7 +2,8 @@
 Final Project for the Ironhack Bootcamp. Spiritus Games were kind enough to share their player log data with me, from this I wrangled the data into more useable formats resulting in several tables. Then performed an analyses in Tableau on how to increase player satisification. 
 
 
--- fabular.ipynb --
+**-- Overview of fabular.ipynb --**
+Ultimately the output of running this is creating several .csv files which we load into tableau.
 
 **Load in the data**
 After some initial exploration of a sample player log, we first load in the player log files. As inside the logs there is no player id, but we do have separate files for each player, so we also bring in the filenames to use as a player id.
